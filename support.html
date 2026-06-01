@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jutsu Simulator — Support</title>
+  <style>
+    :root {
+      --bg: #08080F;
+      --panel: #12121f;
+      --border: #25253a;
+      --text: #e8e8f0;
+      --muted: #9a9ab2;
+      --accent: #5b8cff;
+      --accent-2: #ff5b5b;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: radial-gradient(1200px 600px at 50% -10%, #1a1a33 0%, var(--bg) 60%);
+      color: var(--text);
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+      padding: 2rem 1rem 4rem;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    header { text-align: center; margin-bottom: 2.5rem; }
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 0.3rem 0.9rem;
+      margin-bottom: 1rem;
+    }
+    h1 { font-size: 2rem; margin: 0.3rem 0; }
+    .subtitle { color: var(--muted); margin: 0; }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.4rem 1.6rem;
+      margin-bottom: 1.2rem;
+    }
+    h2 { font-size: 1.15rem; margin: 0 0 0.8rem; }
+    .faq-q { font-weight: 600; margin: 1rem 0 0.2rem; }
+    .faq-q:first-of-type { margin-top: 0; }
+    .faq-a { color: var(--muted); margin: 0 0 0.4rem; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .contact-email {
+      display: inline-block;
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-top: 0.4rem;
+    }
+    .response { color: var(--muted); font-size: 0.9rem; margin-top: 0.3rem; }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-top: 2.5rem;
+    }
+    footer a { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="badge">Support</div>
+      <h1>Jutsu Simulator</h1>
+      <p class="subtitle">Trigger stylized energy &amp; elemental techniques with animation, sound, and haptics.</p>
+    </header>
+
+    <div class="card">
+      <h2>Need help?</h2>
+      <p>For any question, bug report, or feedback, reach out by email. We read every message and reply as soon as we can.</p>
+      <a class="contact-email" href="mailto:hsyappsupport@gmail.com">hsyappsupport@gmail.com</a>
+      <p class="response">Typical response time: within 2&ndash;3 business days.</p>
+    </div>
+
+    <div class="card">
+      <h2>Frequently asked questions</h2>
+
+      <p class="faq-q">How do I trigger a technique?</p>
+      <p class="faq-a">Each technique has its own gesture — tap, shake, throw, or blow into the microphone. The in-app tutorial for each technique shows you exactly what to do.</p>
+
+      <p class="faq-q">A technique won't activate with motion or microphone. What now?</p>
+      <p class="faq-a">Make sure you granted the Motion and Microphone permissions when prompted. You can re-enable them in your device Settings under the app's permissions.</p>
+
+      <p class="faq-q">How do I remove ads / unlock premium?</p>
+      <p class="faq-a">Open the app and choose the ad-free / premium upgrade. Purchases are handled by the App Store or Google Play.</p>
+
+      <p class="faq-q">I bought the upgrade but it's not showing. How do I restore it?</p>
+      <p class="faq-a">Use the "Restore Purchases" option in the app. If it still doesn't appear, email us with the store account you purchased from and we'll help.</p>
+
+      <p class="faq-q">How do I switch language?</p>
+      <p class="faq-a">The app supports English and Portuguese. Use the language toggle in the app; your choice is saved automatically.</p>
+
+      <p class="faq-q">Is my microphone audio recorded?</p>
+      <p class="faq-a">No. The microphone is only used to detect blowing in real time. Audio is never recorded, stored, or transmitted. See the privacy policy for details.</p>
+    </div>
+
+    <footer>
+      <p>Developed by Hitoshi Seki &middot; <a href="./privacy-policy.html">Privacy Policy</a></p>
+    </footer>
+  </div>
+</body>
+</html>
